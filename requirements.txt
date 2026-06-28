@@ -2,6 +2,8 @@
 langchain
 langchain-core
 langchain-community
+langchain-text-splitters
+langchain-classic
 
 # OpenAI Integration
 langchain-openai
@@ -9,6 +11,7 @@ openai
 
 # Anthropic Integration
 langchain-anthropic
+anthropic
 
 # Google Gemini (PaLM) Integration
 langchain-google-genai
@@ -18,6 +21,23 @@ google-generativeai
 langchain-huggingface
 transformers
 huggingface-hub
+
+# Vector Stores
+chromadb
+faiss-cpu
+
+# Document Loaders
+pypdf
+pymupdf
+beautifulsoup4
+requests
+wikipedia
+
+# Data Validation
+pydantic
+
+# UI
+streamlit
 
 # Environment Variable Management
 python-dotenv
