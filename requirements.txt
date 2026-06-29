@@ -46,3 +46,5 @@ python-dotenv
 numpy
 scikit-learn
 torch
+
+ddgs
